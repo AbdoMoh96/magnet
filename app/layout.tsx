@@ -22,7 +22,7 @@ export default function RootLayout({
            <link href="https://fonts.gstatic.com" rel="preconnect"/>
            <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&amp;display=swa" rel="stylesheet"/>
       </head>
-      <body className="nk-body">
+      <body className="nk-body" data-navbar-collapse="xl" data-new-gr-c-s-check-loaded="14.1147.0" data-gr-ext-installed="" cz-shortcut-listen="true" data-aos-easing="ease" data-aos-duration="900" data-aos-delay="0">
       <div className="preloader">
         <div className="loader"></div>
       </div>
@@ -38,8 +38,16 @@ export default function RootLayout({
                            height={80}
                            src="/assets/images/magnet_logo_transparent.png"/>
                   </div>
-                </a></div>
-                <Nav/>
+                </a>
+                </div>
+                <div className="nk-header-action">
+                  <Nav/>
+                  <ul className="nk-btn-group sm justify-content-center">
+                    <li className="nk-navbar-toggle">
+                      <button className="btn btn-outline-dark navbar-toggle rounded-0 h-100 p-2"><em className="icon ni ni-menu"></em></button>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -51,8 +59,8 @@ export default function RootLayout({
         <a className="scroll-top shadow animate animate-infinite animate-pulse animate-duration-2 active" href="#"><em
             className="icon ni ni-chevrons-up"></em></a>
       </div>
-      <Script src="/assets/js/bundle.js" strategy="afterInteractive"></Script>
-      <Script src="/assets/js/script.js" strategy="afterInteractive"></Script>
+      <Script src="/assets/js/bundle.js" strategy="afterInteractive"/>
+      <Script src="/assets/js/script.js" strategy="afterInteractive"/>
       </body>
       </html>
   )

@@ -59,8 +59,8 @@ export default function RootLayout({
         <a className="scroll-top shadow animate animate-infinite animate-pulse animate-duration-2 active" href="#"><em
             className="icon ni ni-chevrons-up"></em></a>
       </div>
-      <Script src="/assets/js/bundle.js" strategy="afterInteractive"/>
-      <Script src="/assets/js/script.js" strategy="afterInteractive"/>
+        <script src="/assets/js/bundle.js" defer></script>
+        <script src="/assets/js/script.js" defer></script>
       </body>
       </html>
   )

@@ -81,7 +81,7 @@ const Footer : React.FC<propTypes> = () => {
                     <div className="nk-footer-content row justify-content-between">
                         <div className="col-lg-6 px-0"><p className="nk-footer-copyright-text text-center text-lg-start">© 2011
                             -
-                            <span id="currentYear">2023</span><a className="fs-16" href="https://softnio.com/" target="_blank">
+                            <span id="currentYear">2024</span><a className="fs-16" href="https://softnio.com/" target="_blank">
                                 Softnio</a>. All Rights Reserved.</p></div>
                         <div className="col-lg-6 px-0">
                             <ul className="nk-footer-copyright justify-content-center justify-content-lg-end">

@@ -13,21 +13,19 @@ export default function Home()  {
                     src="https://nioland.themenio.com/images/business-tracker/banner-cover.png"/></div>
               </div>
               <div className="col-lg-6">
-                <div className="nk-banner-content"><h1 className="display-6 mb-2 mb-md-3 aos-init"
-                                                       data-aos="fade-up">NioLand Brings Solutions to Captures
-                  Ideas</h1>
+                <div className="nk-banner-content"><h1 className="display-6 mb-2 mb-md-3 aos-init" data-aos="fade-up">
+                  Magnet HR consultancy firm
+                </h1>
                   <p className="nk-section-text aos-init" data-aos="fade-up" data-aos-delay="50">
-                    Easily achieve your saving goals. Have all your recurring and one time expenses and
-                    incomes in one place.</p>
+                    Magnet is a leading HR consultancy firm located in Egypt, serving as a trusted partner for companies seeking comprehensive HR solutions. With a focus on delivering exceptional service, Magnet specializes in supporting startup companies, managing complex transformations, and providing expert recruitment and headhunting services.</p>
                   <ul className="nk-btn-group pt-5">
                     <li className="aos-init" data-aos="fade-up" data-aos-delay="100"><a
                         className="btn btn-primary"
-                        href="#">Try
-                      free demo</a></li>
-                    <li className="aos-init" data-aos="fade-up" data-aos-delay="150"><a
+                        href="#">learn more</a></li>
+                    {/*<li className="aos-init" data-aos="fade-up" data-aos-delay="150"><a
                         className="btn btn-outline-primary"
                         href="#">Explore
-                      Now</a></li>
+                      Now</a></li>*/}
                   </ul>
                 </div>
               </div>
@@ -39,7 +37,7 @@ export default function Home()  {
         <div className="container">
           <div className="nk-section-content text-center"><h4
               className="fw-normal text-gray-800 mb-5 aos-init " data-aos="fade-up">Over <span
-              className="text-base fw-semibold">32K+ software</span> business growing with NioLand </h4>
+              className="text-base fw-semibold">32K+ </span> business growing with Magnet</h4>
             <div className="row justify-content-center">
               <div className="col-xxl-8 col-xl-9 col-lg-10">
                 <div className="row gy-3 align-items-center justify-content-center justify-content-lg-between">

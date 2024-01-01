@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 interface propTypes {}
 
@@ -15,10 +16,10 @@ const Footer : React.FC<propTypes> = () => {
                                 <div className="nk-footer-brand-info mb-4">
                                     <div className="nk-footer-logo"><a className="logo-link"
                                                                        href="https://nioland.themenio.com/index.html">
-                                        <div className="logo-wrap"><img alt="brand-logo"
-                                                                        className="logo-img"
-                                                                        src="https://nioland.themenio.com/images/logo-s2-dark.png"
-                                                                        srcSet="https://nioland.themenio.com/images/logo-s2-dark2x.png 2x"/>
+                                        <div className="logo-wrap"><Image alt="brand-logo"
+                                                                          width={200}
+                                                                          height={80}
+                                                                        src="/assets/images/magnet_logo_transparent.png"/>
                                         </div>
                                     </a></div>
                                     <p>Streamline your business operations with our powerful suite of solutions. Boost

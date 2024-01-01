@@ -2,6 +2,7 @@ import React from 'react';
 import Script from "next/script";
 import Nav from "@/app/Components/Nav";
 import Footer from "@/app/Components/Footer";
+import Image from "next/image";
 import '/public/assets/css/style.css';
 
 export default function RootLayout({
@@ -31,10 +32,11 @@ export default function RootLayout({
             <div className="container">
               <div className="nk-header-wrap">
                 <div className="nk-header-logo"><a className="logo-link" href="https://nioland.themenio.com/index.html">
-                  <div className="logo-wrap"><img alt="brand-logo"
-                                                  className="logo-img"
-                                                  src="https://nioland.themenio.com/images/logo-s2-dark.png"
-                                                  srcSet="https://nioland.themenio.com/images/logo-s2-dark2x.png 2x"/>
+                  <div className="logo-wrap">
+                    <Image alt="brand-logo"
+                           width={200}
+                           height={80}
+                           src="/assets/images/magnet_logo_transparent.png"/>
                   </div>
                 </a></div>
                 <Nav/>

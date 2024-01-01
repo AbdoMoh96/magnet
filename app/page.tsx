@@ -433,147 +433,11 @@ export default function Home()  {
                     <em className="icon ni ni-chat-fill"></em></div>
                   <h5 className="title m-0 mb-2">Do you need any help? Get in touch with our support
                     team.</h5>
-                  <p className="text small m-0">Lorem ipsum dolor sit amet, consectet adipiscing elit.
-                    Consequat aliquet soll ac.</p><a className="btn-link pt-3 pt-md-5"
-                                                     href="#"><span>support@nioland.com</span><em
+                  {/*<p className="text small m-0">Lorem ipsum dolor sit amet, consectet adipiscing elit.
+                    Consequat aliquet soll ac.</p>*/}
+                  <a className="btn-link pt-3 pt-md-5"
+                                                     href="mailto:support@magnet.com"><span>support@magnet.com</span><em
                     className="icon ni ni-arrow-right"></em></a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="nk-section nk-section-pricing overflow-hidden pt-5 pt-lg-7 pb-5 pb-lg-120">
-        <div className="container">
-          <div className="nk-pricing-wrap nk-pricing-wrap-s1">
-            <div className="row justify-content-center text-center">
-              <div className="col-xl-7">
-                <div className="nk-section-head mb-xl-7"><span className="nk-section-subtitle">Pricing Plan</span>
-                  <div><h2 className="nk-section-title">Plans for Everyone</h2>
-                    <p className="nk-section-text"> Pricing plans for everyone, offering affordability and
-                      value for individuals and businesses alike. </p></div>
-                  <div className="nk-pricing-action-wrap pt-5">
-                    <div className="nk-pricing-toggle nk-pricing-toggle-s1">
-                      <input className="price-toggle-input" id="monthly" name="duration"
-                             type="radio" value="monthly" wfd-id="id0"/>
-                      <label htmlFor="monthly">Monthly</label>
-                      <input className="price-toggle-input" id="yearly"
-                             name="duration" type="radio"
-                             value="yearly" wfd-id="id1"/><label
-                        htmlFor="yearly">Yearly</label>
-                      <span className="switch-highlight"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="nk-pricing-group">
-              <div className="nk-pricing nk-pricing-s1 p-5 pe-3 aos-init" data-aos="fade-up" data-aos-delay="100">
-                <div className="nk-pricing-head mb-3">
-                  <div className="nk-month-amount amount-wrap"><span className="amount h3 mb-0">$20</span><span
-                      className="amount-text fs-16">/month</span></div>
-                  <div className="nk-year-amount amount-wrap"><span className="amount h3 mb-0">$39</span><span
-                      className="amount-text fs-16">/year</span></div>
-                </div>
-                <div className="nk-pricing-body">
-                  <div className="mb-4"><h5 className="title">Intro</h5>
-                    <p className="fs-14 m-0">For most businesses that want to otpimize web queries</p></div>
-                  <ul className="nk-list-link fw-medium">
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">All limited links</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Own analytics platform</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Chat support</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Optimize hashtags</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Unlimited users</span>
-                    </li>
-                  </ul>
-                  <div className="pt-4"><a className="btn btn-block btn-outline-primary" href="#">Choose Plan</a>
-                  </div>
-                </div>
-              </div>
-              <div className="nk-pricing nk-pricing-s1 p-5 ps-3 aos-init" data-aos="fade-up" data-aos-delay="100">
-                <div className="nk-pricing-head mb-3">
-                  <div className="nk-month-amount amount-wrap"><span className="amount h3 mb-0">$50</span><span
-                      className="amount-text fs-16">/month</span></div>
-                  <div className="nk-year-amount amount-wrap"><span className="amount h3 mb-0">$79</span><span
-                      className="amount-text fs-16">/year</span></div>
-                </div>
-                <div className="nk-pricing-body">
-                  <div className="mb-4"><h5 className="title">Base</h5>
-                    <p className="fs-14 m-0">For most businesses that want to otpimize web queries</p></div>
-                  <ul className="nk-list-link fw-medium">
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">All limited links</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Own analytics platform</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Chat support</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Optimize hashtags</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Unlimited users</span>
-                    </li>
-                  </ul>
-                  <div className="pt-4"><a className="btn btn-block btn-outline-primary" href="#">Choose Plan</a>
-                  </div>
-                </div>
-              </div>
-              <div className="nk-pricing nk-pricing-s1 p-5 active aos-init" data-aos="fade-up"
-                   data-aos-delay="50">
-                <div className="nk-pricing-badge-wrap p-5"><span
-                    className="badge badge-md rounded-pill fs-12 bg-white text-uppercase fw-semibold">most Popular</span>
-                </div>
-                <div className="nk-pricing-head mb-3">
-                  <div className="nk-month-amount amount-wrap"><span className="amount h3 mb-0">$100</span><span
-                      className="amount-text fs-16">/month</span></div>
-                  <div className="nk-year-amount amount-wrap"><span className="amount h3 mb-0">$179</span><span
-                      className="amount-text fs-16">/year</span></div>
-                </div>
-                <div className="nk-pricing-body">
-                  <div className="mb-4"><h5 className="title">Pro</h5>
-                    <p className="fs-14 m-0">For most businesses that want to otpimize web queries</p></div>
-                  <ul className="nk-list-link fw-medium">
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">All limited links</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Own analytics platform</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Chat support</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Optimize hashtags</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Unlimited users</span>
-                    </li>
-                  </ul>
-                  <div className="pt-4"><a className="btn btn-block btn-outline-primary" href="#">Choose Plan</a>
-                  </div>
-                </div>
-              </div>
-              <div className="nk-pricing nk-pricing-s1 p-5 aos-init" data-aos="fade-up" data-aos-delay="100">
-                <div className="nk-pricing-head mb-3">
-                  <div className="nk-month-amount amount-wrap"><span className="amount h2 mb-0">$200</span><span
-                      className="amount-text fs-16">/month</span></div>
-                  <div className="nk-year-amount amount-wrap"><span className="amount h2 mb-0">$379</span><span
-                      className="amount-text fs-16">/year</span></div>
-                </div>
-                <div className="nk-pricing-body">
-                  <div className="mb-4"><h5 className="title">Enterprise</h5>
-                    <p className="fs-14 m-0">For most businesses that want to otpimize web queries</p></div>
-                  <ul className="nk-list-link fw-medium">
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">All limited links</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Own analytics platform</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Chat support</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Optimize hashtags</span>
-                    </li>
-                    <li className="active"><em className="icon ni ni-check me-1"></em><span className="fs-14">Unlimited users</span>
-                    </li>
-                  </ul>
-                  <div className="pt-4"><a className="btn btn-block btn-outline-primary" href="#">Choose Plan</a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -585,9 +449,8 @@ export default function Home()  {
             <div
                 className="row align-items-xl-center justify-content-center justify-content-xl-between text-center text-xl-start">
               <div className="col-lg-10 col-xl-7">
-                <div className="mb-xl-0 mt-xl-3 p-5 p-md-7 pt-sm-7"><h2 className="nk-section-title">Get discount up
-                  to 50%</h2>
-                  <p className="m-0">Put your email address and get started</p>
+                <div className="mb-xl-0 mt-xl-3 p-5 p-md-7 pt-sm-7"><h2 className="nk-section-title">Subscribe To Our Newsletter</h2>
+                  {/*<p className="m-0">Put your email address and get started</p>*/}
                   <form>
                     <div
                         className="row form-group nk-newsletter-one justify-content-center justify-content-xl-start pt-5">
@@ -600,25 +463,11 @@ export default function Home()  {
                       </div>
                       <div className="col-md-3 ps-md-0">
                         <button className="btn btn-primary text-nowrap btn-block h-100" type="submit">
-                          Get Voucher
+                          subscribe
                         </button>
                       </div>
                     </div>
                   </form>
-                  <ul className="nk-btn-group justify-content-center justify-content-xl-start pt-5 pt-lg-7">
-                    <li><a className="d-block" href="#"><img
-                        alt="store"
-                        className="rounded-2"
-                        src="https://nioland.themenio.com/images/apps/app-store.png"
-                        srcSet="https://nioland.themenio.com/images/apps/app-store2x.png 2x"/></a>
-                    </li>
-                    <li><a className="d-block" href="#"><img
-                        alt="store"
-                        className="rounded-2"
-                        src="https://nioland.themenio.com/images/apps/play-store.png"
-                        srcSet="https://nioland.themenio.com/images/apps/play-store2x.png 2x"/></a>
-                    </li>
-                  </ul>
                 </div>
               </div>
               <div className="col-xl-5 text-xl-end position-relative">
@@ -630,7 +479,7 @@ export default function Home()  {
           </div>
         </div>
       </section>
-      <section className="nk-section nk-newsletter-section  pb-lg-0">
+      {/*<section className="nk-section nk-newsletter-section  pb-lg-0">
         <div className="container">
           <div
               className="row justify-content-center justify-content-lg-between align-items-center pb-5 border-bottom border-gray-50">
@@ -656,7 +505,7 @@ export default function Home()  {
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
     </>
   )
 }
